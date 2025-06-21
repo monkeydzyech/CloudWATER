@@ -116,22 +116,15 @@ df_gold.write.format("delta").mode("overwrite").saveAsTable("gold_water_quality"
    - Données : `YEAR`, `COUNT(VALUE)`
    - Objectif : Suivre les tendances annuelles de surveillance.
 
----
-
-## 🧾 Référentiel de Code
-
-> Tous les scripts de transformation sont disponibles dans ce repository.
-
-📌 **GitHub** : [`Lien vers le repository`](#)
 
 ---
 
 ## Rendu Final
 
-- 📄 Rapport PDF
-- 🧱 Table Delta finale : `gold_water_quality`
-- 📈 Rapport Power BI
-- 💻 Repository Git contenant tous les scripts PySpark
+- Rapport PDF
+- Table Delta finale : `gold_water_quality`
+  Rapport Power BI
+- Repository Git contenant tous les scripts PySpark
 
 ---
 
@@ -139,8 +132,8 @@ df_gold.write.format("delta").mode("overwrite").saveAsTable("gold_water_quality"
 
 Ce projet inclut toutes les étapes nécessaires à la construction d’un pipeline analytique moderne :
 
-- 🔗 Intégration multi-source
-- 🏗️ Architecture Lakehouse robuste
-- 🌟 Modèle en étoile avec gestion des dimensions
-- 🕰️ Implémentation des SCD Types 1 et 2
-- 📊 Visualisations orientées décision environnementale
+- Intégration multi-source
+- Architecture Lakehouse robuste
+- Modèle en étoile avec gestion des dimensions
+- 🕰Implémentation des SCD Types 1 et 2
+- Visualisations orientées décision environnementale
